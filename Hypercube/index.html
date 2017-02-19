@@ -1,0 +1,36 @@
+<!--
+                                            ##############~ВНИМАНИЕ!~##############
+                                            #Весь код пишется в файле Autorun.bas!#
+                                            #====Здесь меняйте только конфиг!=====#
+                                            ##############~ВНИМАНИЕ!~##############
+-->
+<!Doctype HTML>
+<html>
+    <head>
+        <title>HyperCube (by PROPHESSOR)</title>
+        <meta charset="utf-8"/>
+        <script>
+            var $Config = {
+                type: 'canvas', //canvas/console/html
+                canvas_size: ['*','*',true], //[x,y,вместить]
+                Debug_Mode: true,
+                name: "HyperCube (by PROPHESSOR)"
+            }
+        </script>
+    </head>
+    <body>
+        <div id="p"></div>
+        <canvas id="c" style="display: block;">Для запуска приложений JsMobileBasic требуеться браузер, поддерживающий canvas!</canvas>
+        <audio id="player">Для запуска приложений JsMobileBasic требуеться браузер, поддерживающий аудио!</audio>
+        <script src="MobileBasic.dll" type="text/javascript"></script>
+        <div id="includeHTML">
+            <!-- Сюда подключаются кастомный HTML код -->
+        </div>
+        <div id="modules">
+            <!-- Сюда подключаются модули и библиотеки -->
+        </div>
+        <div id="autorun">
+            <script src="Autorun.bas" type="text/javascript"></script>
+        </div>
+    </body>
+</html>

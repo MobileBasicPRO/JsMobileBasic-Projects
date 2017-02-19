@@ -1,0 +1,60 @@
+{
+    "dependencies": {
+        "pretty-bytes": "^1.0.2"
+    },
+    "window": {
+        "as_desktop": false,
+        "transparent": false,
+        "exe_icon": "icon.png",
+        "height": 500,
+        "mac_icon": "icon.png",
+        "fullscreen": false,
+        "kiosk_emulation": false,
+        "frame": true,
+        "resizable": false,
+        "show_in_taskbar": true,
+        "show": true,
+        "width": 800,
+        "title": "The Tunnel",
+        "always_on_top": true,
+        "visible": true,
+        "icon": "icon.png",
+        "toolbar": false,
+        "kiosk": false
+    },
+    "author": "PROPHESSOR",
+    "webkit": {
+        "plugin": false,
+        "java": false,
+        "page-cache": false
+    },
+    "version": "1.0.0",
+    "additional_trust_anchors": [],
+    "webexe_settings": {
+        "custom_script": "",
+        "download_dir": "C:/Users/PROPHESSOR/AppData/Local/Web2Executable/Web2Executable/files/downloads",
+        "sdk_build": false,
+        "force_download": false,
+        "mac-x32": false,
+        "nw_version": "0.16.0-rc1",
+        "uncompressed_folder": false,
+        "windows-x64": false,
+        "windows-x32": true,
+        "linux-x64": false,
+        "nw_compression_level": 9,
+        "linux-x32": false,
+        "export_dir": "output",
+        "mac-x64": false
+    },
+    "description": "\u0418\u043d\u0442\u0435\u0440\u043f\u0440\u0435\u0442\u0430\u0442\u043e\u0440 \u044f\u0437\u044b\u043a\u0430 JsMobileBasic (http://prophessor.16mb.com/projects/JsMobileBasic/)",
+    "single-instance": true,
+    "app_name": "Tunel",
+    "name": "The Tunnel",
+    "nodejs": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "icon": "icon.png",
+    "license": "ISC",
+    "main": "index.html"
+}
